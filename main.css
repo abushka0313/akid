@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 100%;
+    width: 85%;
+    margin: 0 auto;
+
+}
+
+:root {
+    --abdullo:
+}
+
+.header-boss {
+    padding: 40px 0;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    box-shadow: 3px black;
+}
+
+li {
+    align-items: center;
+}
+
+.ul-boss {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.li-gram:hover {
+    transition: 300ms all ease;
+    border-bottom: 2px solid rgba(239, 64, 15, 1);
+    color: rgba(239, 64, 15, 1);
+}
+
+.li-gram {
+    transition: 300ms all ease;
+    align-items: center;
+}
+
+.hr {
+    border: 1px;
+}
+
+.btw {
+    width: 150px;
+    height: 60px;
+    color: black;
+    margin-top: 24px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.btw:hover {
+    transition: 250ms all ease;
+    background-color: rgba(239, 64, 15, 1);
+
+}
+
+.ul-dodasi {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transition: 250ms all ease;
+}
+
+.main-boss {
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dom {
+    gap: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    background-color: black;
+    width: 390px;
+    height: 55px;
+    border-radius: 10px;
+    color: white;
+}
+
+.uy {
+    display: flex;
+    align-items: center;
+    gap: 57px;
+    font-size: 28px;
+}
+
+.BRIN {
+    width: 115px;
+    height: 55px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.BRIN:hover {
+    transition: 550ms all ease;
+    background-color: blue;
+}
+
+.home {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+h2:hover {
+    transition: 300ms all ease;
+    color: rgba(239, 64, 15, 1);
+}
+
+.shop-boss {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 25px;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 125px;
+    
+}
+
+.gey {
+    width: 290px;
+    height: 290px;
+    background-color: antiquewhite;
+    align-items: center;
+    border-radius: 10px;
+}
+.ne{
+    margin-top: 20px;
+}
+
+.ke{
+    margin-top: 40px;
+}
+.uh-vei{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+    box-shadow: 10px black;
+    font-size: 16px;
+}
